@@ -31,13 +31,6 @@ class App extends Component {
 
   }
 
-  // Clear = (e)=>{
-    
-  //   this.setState({
-  //     name: ""
-  //   })
-  // }
-
   handleSubmit = (e)=>{
     e.preventDefault();
     this.setState({
@@ -72,27 +65,5 @@ class App extends Component {
   }
   
 }
-
-// class App extends Component {
-//   state = {
-//     name : "Mohamed",
-//     age : 26
-//   }
-
-//   change = ()=>{
-//     this.setState({
-//       name : "Omar",
-//       age : this.state.age + 1
-//     })
-//   }
-//   render () {
-//     return (
-//         <div className="App">
-//           <button onClick={this.change} onDoubleClick={()=>{console.log(`Age = ${this.state.age}`)}}>Change</button>
-//           <Child name={this.state.name} age={this.state.age}/>
-//         </div>
-//     )
-//   }
-// }
 
 export default App
